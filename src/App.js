@@ -87,9 +87,13 @@ class App extends Component {
         //event.preventDefault();
         let selectedPage = parseInt(event.target.text);
         console.log(selectedPage);
+        
         this.setState({ page: selectedPage }, () => {
             this.findResto();
         });
+
+        // this.setState({ page: selectedPage });
+        // this.findResto();
     }
 
     render() {
@@ -168,13 +172,17 @@ class App extends Component {
                     className={this.state.displayLoadingIndicator}
                     style={{
                         position: "fixed",
+
                         top: "50%",
                         left: "50%",
-                        marginLeft: "-120px",
-                        marginTop: "-70px",
-                        backgroundColor: "#999999",
+
                         width: "220px",
                         height: "120px",
+
+                        marginLeft: "-110px",
+                        marginTop: "-60px",
+
+                        backgroundColor: "#999999",
                         textAlign: "center",
                         zIndex: 100,
                     }}
