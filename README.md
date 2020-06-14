@@ -2,7 +2,8 @@
 
 ## Getting Started
 
-- Clone this repo
+- Open your terminal
+- Run command: `git clone https://github.com/freddymu/resto-finder`
 - Run command: `npm install`
 - Run command: `npm start`
 - You should see your app is running and shown in your browser
