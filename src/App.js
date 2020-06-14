@@ -199,7 +199,7 @@ class App extends Component {
 
                 <Row>
                     <Col>
-                        <h1>Resto Finder</h1>
+                        <h1>Resto Finder v.0.1</h1>
                     </Col>
                 </Row>
 
