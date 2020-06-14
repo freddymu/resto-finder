@@ -1,3 +1,12 @@
+# Mini Project Resto Finder
+
+## Getting Started
+
+- Clone this repo
+- Run command: `npm install`
+- Run command: `npm start`
+- You should see your app is running and shown in your browser
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
